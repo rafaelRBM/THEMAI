@@ -1,5 +1,5 @@
 {
-  "name": "kdinuxx",
+  "name": "y",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,8 +7,17 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelRBM/THEMAI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaelRBM/THEMAI/issues"
+  },
+  "homepage": "https://github.com/rafaelRBM/THEMAI#readme",
+  "description": ""
 }
