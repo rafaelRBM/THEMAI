@@ -1,0 +1,45 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TCustomizeItemObjects'
+    ItemEditAppearanceClassName = 'TCustomizeItemObjects'
+    HeaderAppearanceClassName = 'TCustomizeItemObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    EditMode = True
+    Position.X = 96.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 409.000000000000000000
+    Size.Height = 210.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ItemAppearanceObjects.ItemObjects.Detail.Visible = True
+    ItemAppearanceObjects.ItemObjects.Image.Visible = True
+    ItemAppearanceObjects.ItemObjects.Accessory.Visible = True
+    ItemAppearanceObjects.ItemObjects.TextButton.Visible = True
+    ItemAppearanceObjects.ItemObjects.GlyphButton.Visible = True
+    StyleLookup = 'ListView1Style1'
+  end
+  object Button1: TButton
+    Position.X = 272.000000000000000000
+    Position.Y = 320.000000000000000000
+    TabOrder = 2
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=KDINUX'
+      'DriverID=SQLite')
+    LoginPrompt = False
+    Left = 560
+    Top = 96
+  end
+end
